@@ -19,10 +19,7 @@ connectDB();
 const app = express();
 
 // CORS configuration
-app.use(cors({
-  origin: process.env.CLIENT_ORIGIN,
-  credentials: true,
-}));
+app.use(cors());
 
 // Body parser
 app.use(express.json());
