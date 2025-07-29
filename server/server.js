@@ -20,7 +20,7 @@ const app = express();
 
 // CORS configuration
 app.use(cors({
-  origin: process.env.CLIENT_ORIGIN,
+  origin: 'https://joyful-cupcake-4b2fb5.netlify.app',
   credentials: true,
 }));
 
